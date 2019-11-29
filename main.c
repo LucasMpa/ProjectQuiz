@@ -49,10 +49,6 @@
 int main(){
 setlocale(LC_ALL, "portuguese");
 
-
-
-
-
     printf("========================================================================================================================");
     printf("\n                                       BEM-VINDO AO JOGO SOBRE SISTEMA DE ARQUIVOS!\n\n\n\nEste projeto está em processo de desenvolvimento! Deixem seu feedback para futuras melhorias!\n\n\n");
     printf("                                                                                        Desenvolvido por: Lucas Matheus\n\n");
@@ -188,10 +184,9 @@ if(alternativa_letra == 'A'){
     printf("                                       Alternativa Correta! Você Ganhou 15 pontos!");
     score += 15;
 }else{
-    if(alternativa_letra != 'B'){
         printf("                                        Alternativa Errada! Você perdeu 5 pontos!");
         score -= 5;
-    }
+
 }
 
     ultimaEtapa();
